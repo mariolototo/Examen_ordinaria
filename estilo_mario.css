@@ -1,0 +1,90 @@
+header {
+    text-align: center;
+    
+}
+
+body{
+    background-color: #379ffa;
+}
+
+main{
+    background-image: url("inteligencia.png");
+}
+h1{
+    background-color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    text-shadow: blue 5px 0;
+}
+
+nav{
+    background-color: white;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+ nav ul li{
+    display: inline-block;
+    
+    color: white;
+}
+
+nav ul li a{
+    display: block;
+    padding-right: 10px;
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: gold;
+}
+main ul {
+    list-style: none;
+    display: flex;
+}
+
+.blanco{
+    text-align: center;
+    border: blue 5px solid;
+    width: 350%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    
+    
+}
+
+.violeta {
+    text-align: left;
+    border:gold 5px solid;
+    color: blue;
+    background-color: #a14fff;
+    width: 150%;
+}
+
+.verde {
+    border: red 5px dotted;
+    background-color: #477067;
+    color: white;
+    width: 300%
+}
+
+.amarillo{
+    background-color: gold;
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    position: bottom;
+    background-color: #292a5c;
+    color: white;
+}
